@@ -4,9 +4,6 @@ const router=express.Router()
 const {usersRouter}=require('../controllers/UsersController')
 
 
-
-
-
 //console.log('hi')
 router.use('/users',usersRouter)
 
